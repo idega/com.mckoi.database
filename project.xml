@@ -2,7 +2,7 @@
 
 <project>
   <pomVersion>3</pomVersion>
-  <extend>../com.idega.core.bundle/base-project.xml</extend>
+  <extend>${base.project.dir}/base-project.xmlend>
   <name>McKoi Database</name>
   <groupId>bundles</groupId>
   <artifactId>com.mckoi.database</artifactId>
