@@ -6,7 +6,7 @@
   <name>McKoi Database</name>
   <groupId>bundles</groupId>
   <artifactId>com.mckoi.database</artifactId>
-  <currentVersion>1.0.2</currentVersion>
+  <currentVersion>1.0.2_01-SNAPSHOT</currentVersion>
   <organization/>
   <inceptionYear>2002</inceptionYear>
   <shortDescription>An idegaWeb bundle for the McKoi Database</shortDescription>
@@ -32,7 +32,8 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.core</artifactId>
-      <version>1.9</version>
+      <!--<version>1.9</version>-->
+      <version>SNAPSHOT</version>
       <type>jar</type>
       <url>http://www.idega.com/</url>
       <properties>
