@@ -2,7 +2,7 @@
 
 <project>
   <pomVersion>3</pomVersion>
-  <extend>${base.project.dir}/base-project.xmlend>
+  <extend>${base.project.dir}/base-project.xml</extend>
   <name>McKoi Database</name>
   <groupId>bundles</groupId>
   <artifactId>com.mckoi.database</artifactId>
