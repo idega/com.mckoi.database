@@ -1,0 +1,77 @@
+<project>
+    <pomVersion>3</pomVersion>
+    <name>McKoi Database</name>
+    <groupId>bundles</groupId>
+    <artifactId>com.mckoi.database</artifactId>
+    <currentVersion>1.0.2</currentVersion>
+    <organization/>
+    <inceptionYear>2002</inceptionYear>
+    <shortDescription>An idegaWeb bundle for the McKoi Database</shortDescription>
+    <issueTrackingUrl>http://issues.idega.is</issueTrackingUrl>
+    <versions/>
+    <branches/>
+    <developers>
+        <developer>
+            <name>Tryggvi Larusson</name>
+            <id>tryggvil</id>
+            <email>tryggvi@idega.is</email>
+            <organization>idega software</organization>
+            <roles/>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>com.idega.core</groupId>
+            <artifactId>com.idega.core</artifactId>
+            <version>2.0</version>
+            <type>jar</type>
+            <url>http://www.idega.com/</url>
+            <properties>
+                <eclipse.dependency>true</eclipse.dependency>
+            </properties>
+        </dependency>
+         <dependency>
+            <groupId>mckoi</groupId>
+            <artifactId>mckoidb</artifactId>
+            <version>1.0.2</version>
+            <type>jar</type>
+            <url>http://www.mckoi.com/database</url>
+            <properties/>
+        </dependency>
+         <dependency>
+            <groupId>mckoi</groupId>
+            <artifactId>mkjdbc</artifactId>
+            <version>1.0.2</version>
+            <type>jar</type>
+            <url>http://www.mckoi.com/database</url>
+            <properties/>
+        </dependency>
+        <dependency>
+            <groupId>gnu-regexp</groupId>
+            <artifactId>gnu-regexp</artifactId>
+            <version>1.1.4</version>
+            <type>jar</type>
+            <url>http://www.cacas.org/java/gnu/regexp/</url>
+            <properties/>
+        </dependency>
+    <build>
+        <sourceDirectory>src/java</sourceDirectory>
+        <unitTestSourceDirectory>src/test</unitTestSourceDirectory>
+        <unitTest>
+            <includes>
+                <include>**/*Test.java</include>
+            </includes>
+        </unitTest>
+    </build>
+    <reports>
+        <report>maven-tasklist-plugin</report>
+        <report>maven-changelog-plugin</report>
+        <report>maven-developer-activity-plugin</report>
+        <report>maven-simian-plugin</report>
+        <report>maven-jcoverage-plugin</report>
+        <report>maven-faq-plugin</report>
+        <report>maven-file-activity-plugin</report>
+        <report>maven-changes-plugin</report>
+    </reports>
+    <properties/>
+</project>
