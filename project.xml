@@ -54,6 +54,7 @@
             <url>http://www.cacas.org/java/gnu/regexp/</url>
             <properties/>
         </dependency>
+    </dependencies>
     <build>
         <sourceDirectory>src/java</sourceDirectory>
         <unitTestSourceDirectory>src/test</unitTestSourceDirectory>
