@@ -47,6 +47,14 @@
             <properties/>
         </dependency>
         <dependency>
+            <groupId>servletapi</groupId>
+            <artifactId>servletapi</artifactId>
+            <version>2.3</version>
+            <type>jar</type>
+            <url>http://java.sun.com/products/servlet/docs.html</url>
+            <properties/>
+        </dependency>        
+        <dependency>
             <groupId>gnu-regexp</groupId>
             <artifactId>gnu-regexp</artifactId>
             <version>1.1.4</version>
